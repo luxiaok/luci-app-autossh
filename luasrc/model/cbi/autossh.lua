@@ -9,7 +9,7 @@ ssh = section:option(Value, "ssh", translate("ssh"));
 ssh.optional = false;
 ssh.rmempty = false;
 
-monitorport = section:option(Value, "monitorport", translate("monitorport"));
+monitorport = section:option(Value, "monitorport", translate("monitorport"), translate("Specify remote monitor port for offline"));
 monitorport.optional = false;
 monitorport.rmempty = false;
 

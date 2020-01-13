@@ -14,6 +14,9 @@ msgstr "启用"
 msgid "ssh"
 msgstr "SSH命令"
 
+msgid "Specify remote monitor port for offline"
+msgstr "指定远程监听端口，用于AutoSSH掉线监控"
+
 msgid "gatetime"
 msgstr "GateTime"
 
