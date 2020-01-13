@@ -17,7 +17,7 @@ gatetime = section:option(Value, "gatetime", translate("gatetime"), translate("U
 gatetime.optional = false;
 gatetime.rmempty = false;
 
-poll = section:option(Value, "poll", translate("poll"));
+poll = section:option(Value, "poll", translate("poll"), translate("How often to check the connection"));
 poll.optional = false;
 poll.rmempty = false;
 

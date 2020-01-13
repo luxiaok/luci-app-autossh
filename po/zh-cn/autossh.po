@@ -28,3 +28,6 @@ msgstr "使用-f参数时该选项设置为0"
 
 msgid "poll"
 msgstr "Poll"
+
+msgid "How often to check the connection"
+msgstr "多久检查一次连接"
