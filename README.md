@@ -1,4 +1,4 @@
-LuCI Support for AutoSSH
+LuCI support for AutoSSH
 ========================
 
 * Version: 1.0.0-5
