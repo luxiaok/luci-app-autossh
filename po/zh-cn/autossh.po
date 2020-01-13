@@ -23,5 +23,8 @@ msgstr "本地和远程都会开启该端口，用于掉线监控"
 msgid "gatetime"
 msgstr "GateTime"
 
+msgid "Use of -f flag sets this to 0"
+msgstr "使用-f参数时该选项设置为0"
+
 msgid "poll"
 msgstr "轮询"

@@ -13,7 +13,7 @@ monitorport = section:option(Value, "monitorport", translate("monitorport"), tra
 monitorport.optional = false;
 monitorport.rmempty = false;
 
-gatetime = section:option(Value, "gatetime", translate("gatetime"));
+gatetime = section:option(Value, "gatetime", translate("gatetime"), translate("Use of -f flag sets this to 0"));
 gatetime.optional = false;
 gatetime.rmempty = false;
 
