@@ -1,4 +1,4 @@
-model = Map("autossh", translate("<a href='javascript:void(0);'>AutoSSH</a>"), translate("Automatically restart SSH sessions and tunnels"))
+model = Map("autossh", translate("<a href='javascript:alert(" .. '"LuCI support for AutoSSH\\nPowered by XK-Studio"' ..  ");'>AutoSSH</a>"), translate("Automatically restart SSH sessions and tunnels"))
 
 model:section(SimpleSection).template  = "autossh/status"
 
