@@ -1,7 +1,7 @@
 LuCI support for AutoSSH
 ========================
 
-* Version: 1.0.0-5
+* Version: 1.0.0-6
 
 * Update: 2020-01-13
 
