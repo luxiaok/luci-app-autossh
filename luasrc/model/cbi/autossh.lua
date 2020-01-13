@@ -1,4 +1,7 @@
 model = Map("autossh", translate("AutoSSH"), translate("Automatically restart SSH sessions and tunnels"))
+
+model:section(SimpleSection).template  = "autossh/status"
+
 section = model:section(TypedSection, "autossh", translate("AutoSSH Configurations"))
 section.anonymous = true --不显示Section名称
 
