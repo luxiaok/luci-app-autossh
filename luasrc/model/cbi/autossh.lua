@@ -9,13 +9,13 @@ ssh = section:option(Value, "ssh", translate("ssh"));
 ssh.optional = false;
 ssh.rmempty = false;
 
-gatetime = section:option(Value, "gatetime", translate("gatetime"));
-gatetime.optional = false;
-gatetime.rmempty = false;
-
 monitorport = section:option(Value, "monitorport", translate("monitorport"));
 monitorport.optional = false;
 monitorport.rmempty = false;
+
+gatetime = section:option(Value, "gatetime", translate("gatetime"));
+gatetime.optional = false;
+gatetime.rmempty = false;
 
 poll = section:option(Value, "poll", translate("poll"));
 poll.optional = false;
