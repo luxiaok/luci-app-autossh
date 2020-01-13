@@ -27,4 +27,4 @@ msgid "Use of -f flag sets this to 0"
 msgstr "使用-f参数时该选项设置为0"
 
 msgid "poll"
-msgstr "轮询"
+msgstr "Poll"
