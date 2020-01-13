@@ -1,5 +1,6 @@
 model = Map("autossh", translate("AutoSSH"), translate("Automatically restart SSH sessions and tunnels"))
 section = model:section(TypedSection, "autossh", translate("AutoSSH Configurations"))
+section.anonymous = true --不显示Section名称
 
 enabled = section:option(Flag, "enabled", translate("enabled"));
 enabled.optional = false;
