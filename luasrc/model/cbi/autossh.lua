@@ -4,7 +4,7 @@ section = model:section(TypedSection, "autossh", translate("AutoSSH Configuratio
 enabled = section:option(Flag, "enabled", translate("enabled"));
 enabled.optional = false;
 
-ssh = section:option(Value, "ssh", translate("SSH"));
+ssh = section:option(Value, "ssh", translate("ssh"));
 ssh.optional = false;
 ssh.rmempty = false;
 
