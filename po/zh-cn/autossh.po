@@ -3,3 +3,22 @@ msgstr "AutoSSH"
 
 msgid "Automatically restart SSH sessions and tunnels"
 msgstr "自动重启SSH会话和隧道"
+
+
+msgid "AutoSSH Configurations"
+msgstr "AutoSSH配置"
+
+msgid "enabled"
+msgstr "启用"
+
+msgid "ssh"
+msgstr "SSH命令"
+
+msgid "gatetime"
+msgstr "GateTime"
+
+msgid "monitorport"
+msgstr "监控端口"
+
+msgid "poll"
+msgstr "轮询"
