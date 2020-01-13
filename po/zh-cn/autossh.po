@@ -1,0 +1,5 @@
+msgid "AutoSSH"
+msgstr "AutoSSH"
+
+msgid "Automatically restart SSH sessions and tunnels"
+msgstr "自动重启SSH会话和隧道"
