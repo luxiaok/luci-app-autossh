@@ -29,7 +29,7 @@ msgid "poll"
 msgstr "Poll"
 
 msgid "How often to check the connection"
-msgstr "多久检查一次连接"
+msgstr "多久(秒)检查一次连接"
 
 msgid "<b><font color=green>AutoSSH is running.</font></b>"
 msgstr "<b><font color=green>AutoSSH 运行中</font></b>"
