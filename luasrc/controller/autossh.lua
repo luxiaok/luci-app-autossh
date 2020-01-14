@@ -4,8 +4,8 @@
 module("luci.controller.autossh", package.seeall)
 
 function index()
-    entry( {"admin", "services", "autossh"}, cbi("autossh"), _("AutoSSH"), 1)
-    entry({"admin","services","autossh","status"},call("autossh_status")).leaf = true
+    entry({"admin", "services", "autossh"}, cbi("autossh"), _("AutoSSH"), 1)
+    entry({"admin","services","autossh","status"}, call("autossh_status")).leaf = true
 end
 
 function autossh_status()
