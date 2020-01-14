@@ -2,7 +2,7 @@ msgid "AutoSSH"
 msgstr "AutoSSH"
 
 msgid "Automatically restart SSH sessions and tunnels"
-msgstr "自动重启SSH会话和隧道，实现掉线自动重启。获取支持：<a target='_blank' href='https://github.com/kkstu/autossh'>https://github.com/kkstu/autossh</a>"
+msgstr "自动重启SSH会话和隧道，实现掉线自动重启。获取支持：<a target='_blank' href='https://github.com/kkstu/luci-app-autossh'>https://github.com/kkstu/luci-app-autossh</a>"
 
 msgid "AutoSSH Configurations"
 msgstr "AutoSSH配置"
