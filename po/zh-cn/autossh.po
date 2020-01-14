@@ -7,25 +7,25 @@ msgstr "自动重启SSH会话和隧道，实现掉线自动重启。获取支持
 msgid "AutoSSH Configurations"
 msgstr "AutoSSH配置"
 
-msgid "enabled"
+msgid "Enabled"
 msgstr "启用"
 
-msgid "ssh"
+msgid "SSH Command"
 msgstr "SSH命令"
 
-msgid "monitorport"
+msgid "Monitor Port"
 msgstr "监控端口"
 
 msgid "Specify monitor port"
 msgstr "本地和远程都会开启该端口，用于掉线监控"
 
-msgid "gatetime"
+msgid "GateTime"
 msgstr "GateTime"
 
 msgid "Use of -f flag sets this to 0"
 msgstr "使用 -f 参数时该选项设置为 0 (禁用)"
 
-msgid "poll"
+msgid "Poll"
 msgstr "轮询时间"
 
 msgid "How often to check the connection"
