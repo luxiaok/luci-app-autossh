@@ -26,7 +26,7 @@ msgid "Use of -f flag sets this to 0"
 msgstr "使用 -f 参数时该选项设置为 0 (禁用)"
 
 msgid "poll"
-msgstr "Poll"
+msgstr "轮询时间"
 
 msgid "How often to check the connection"
 msgstr "多久(秒)检查一次连接"
