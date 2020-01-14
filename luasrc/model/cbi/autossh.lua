@@ -5,22 +5,22 @@ model:section(SimpleSection).template  = "autossh/status"
 section = model:section(TypedSection, "autossh", translate("AutoSSH Configurations"))
 section.anonymous = true --不显示Section名称
 
-enabled = section:option(Flag, "enabled", translate("enabled"));
+enabled = section:option(Flag, "enabled", translate("Enabled"));
 enabled.optional = false;
 
-ssh = section:option(Value, "ssh", translate("ssh"));
+ssh = section:option(Value, "ssh", translate("SSH Command"));
 ssh.optional = false;
 ssh.rmempty = false;
 
-monitorport = section:option(Value, "monitorport", translate("monitorport"), translate("Specify monitor port"));
+monitorport = section:option(Value, "monitorport", translate("Monitor Port"), translate("Specify monitor port"));
 monitorport.optional = false;
 monitorport.rmempty = false;
 
-gatetime = section:option(Value, "gatetime", translate("gatetime"), translate("Use of -f flag sets this to 0"));
+gatetime = section:option(Value, "gatetime", translate("GateTime"), translate("Use of -f flag sets this to 0"));
 gatetime.optional = false;
 gatetime.rmempty = false;
 
-poll = section:option(Value, "poll", translate("poll"), translate("How often to check the connection"));
+poll = section:option(Value, "poll", translate("Poll"), translate("How often to check the connection"));
 poll.optional = false;
 poll.rmempty = false;
 
