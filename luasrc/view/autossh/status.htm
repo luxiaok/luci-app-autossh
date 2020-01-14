@@ -1,5 +1,5 @@
 <script type="text/javascript">//<![CDATA[
-XHR.poll(3, '<%=url([[admin]], [[services]], [[autossh]], [[status]])%>', null,
+XHR.poll(5, '<%=url([[admin]], [[services]], [[autossh]], [[status]])%>', null,
     function(x, data) {
         var status = document.getElementById('autossh_status');
         if (data && status) {
