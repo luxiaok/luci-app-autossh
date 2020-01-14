@@ -31,8 +31,8 @@ msgstr "轮询时间"
 msgid "How often to check the connection"
 msgstr "多久(秒)检查一次连接"
 
-msgid "<b><font color=green>AutoSSH is running.</font></b>"
-msgstr "<b><font color=green>AutoSSH 运行中</font></b>"
+msgid "<b style='color:green;'>AutoSSH is running.</b>"
+msgstr "<b style='color:green;'>AutoSSH 运行中</b>"
 
-msgid "<b><font color=red>AutoSSH is not running.</font></b>"
-msgstr "<b><font color=red>AutoSSH 未运行</font></b>"
+msgid "<b style='color:red;'>AutoSSH is not running.</b>"
+msgstr "<b style='color:red;'>AutoSSH 未运行</b>"
