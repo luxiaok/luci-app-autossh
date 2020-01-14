@@ -9,8 +9,8 @@ function index()
 end
 
 function autossh_status()
-    local e = {}
-    e.running = luci.sys.call("pgrep autossh >/dev/null")==0
+    local status = {}
+    status.running = luci.sys.call("pgrep autossh >/dev/null")==0
     luci.http.prepare_content("application/json")
-    luci.http.write_json(e)
+    luci.http.write_json(status)
 end
