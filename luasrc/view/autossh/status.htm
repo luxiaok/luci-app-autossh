@@ -1,12 +1,12 @@
 <script type="text/javascript">//<![CDATA[
 XHR.poll(3, '<%=url([[admin]], [[services]], [[autossh]], [[status]])%>', null,
     function(x, data) {
-        var tb = document.getElementById('autossh_status');
-        if (data && tb) {
+        var status = document.getElementById('autossh_status');
+        if (data && status) {
             if (data.running) {
-                tb.innerHTML = '<em><b><font color=green>AutoSSH <%:RUNNING%></font></b></em>';
+                status.innerHTML = '<em><b><font color=green>AutoSSH <%:RUNNING%></font></b></em>';
             } else {
-                tb.innerHTML = '<em><b><font color=red>AutoSSH <%:NOT RUNNING%></font></b></em>';
+                status.innerHTML = '<em><b><font color=red>AutoSSH <%:NOT RUNNING%></font></b></em>';
             }
         }
     }
