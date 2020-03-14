@@ -1,3 +1,6 @@
+-- Copyright 2020 Xiaok https://github.com/luxiaok
+-- Licensed to the public under the Apache License 2.0.
+
 model = Map("autossh", translate("<a href='javascript:alert(" .. '"LuCI support for AutoSSH\\nPowered by XK-Studio"' ..  ");'>AutoSSH</a>"), translate("Automatically restart SSH sessions and tunnels"))
 
 model:section(SimpleSection).template  = "autossh/status"

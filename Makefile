@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 XK-Studio https://github.com/kkstu
+# Copyright (C) 2020 Xiaok https://github.com/luxiaok
 #
 # This is free software, licensed under the Apache License, Version 2.0 .
 #

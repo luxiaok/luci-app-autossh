@@ -1,4 +1,4 @@
--- Copyright 2020 XK-Studio https://github.com/kkstu
+-- Copyright 2020 Xiaok https://github.com/luxiaok
 -- Licensed to the public under the Apache License 2.0.
 
 module("luci.controller.autossh", package.seeall)
