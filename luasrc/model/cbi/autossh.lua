@@ -11,7 +11,7 @@ section.anonymous = true --不显示Section名称
 enabled = section:option(Flag, "enabled", translate("Enabled"));
 enabled.optional = false;
 
-ssh = section:option(Value, "ssh", translate("SSH Command"));
+ssh = section:option(Value, "ssh", translate("SSH Arguments"));
 ssh.optional = false;
 ssh.rmempty = false;
 
