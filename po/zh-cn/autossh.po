@@ -10,8 +10,8 @@ msgstr "AutoSSH配置"
 msgid "Enabled"
 msgstr "启用"
 
-msgid "SSH Command"
-msgstr "SSH命令"
+msgid "SSH Arguments"
+msgstr "SSH参数"
 
 msgid "Monitor Port"
 msgstr "监控端口"
